@@ -12,7 +12,6 @@ pub fn start() {
     let mut js_canvas = canvas::JSCanvas::new();
 
     let mut snake = snake::Snake::new();
-
     js_canvas.start(&mut snake);
 
 //    let document = web_sys::window().unwrap().document().unwrap();
@@ -28,9 +27,9 @@ pub fn start() {
 //        .unwrap()
 //        .dyn_into::<web_sys::CanvasRenderingContext2d>()
 //        .unwrap();
-
+//
 //    context.begin_path();
-
+//
 //    // Draw the outer circle.
 //    context
 //        .arc(75.0, 75.0, 50.0, 0.0, f64::consts::PI * 2.0)
@@ -51,6 +50,6 @@ pub fn start() {
 //    context
 //        .arc(90.0, 65.0, 5.0, 0.0, f64::consts::PI * 2.0)
 //        .unwrap();
-
+//
 //    context.stroke();
 }
