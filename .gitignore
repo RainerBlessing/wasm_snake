@@ -1,0 +1,5 @@
+.idea
+dist
+pkg
+node_modules
+target
